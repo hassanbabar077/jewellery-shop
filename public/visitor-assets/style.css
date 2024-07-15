@@ -1,0 +1,326 @@
+ * {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+ }
+
+
+ :root {
+   --custom-font: 'Snell Roundhand', cursive;
+   --main-color: rgba(205, 228, 75, 0.5);
+   --secondary-color: rgba(57, 52, 50, 0.76);
+   --danger-color: rgb(114, 221, 120);
+   --gray-color: rgba(225, 225, 225, 0.5);
+ }
+
+ .bg-success {
+   background-color: var(--main-color) !important;
+ }
+
+ .bg-secondary {
+   background-color: var(--secondary-color);
+ }
+
+ .bg-danger {
+   background-color: var(--danger-color) !important;
+ }
+
+ .bg-gray {
+   background-color: var(--gray-color) !important;
+ }
+
+ .text-success {
+   color: var(--main-color) !important;
+ }
+
+ .text-secondary {
+   color: var(--secondary-color);
+ }
+
+ .text-danger {
+   color: var(--danger-color) !important;
+ }
+
+ .text-gray {
+   color: var(--gray-color) !important;
+ }
+
+ /* --------Start navbar Section-----*/
+ .activee {
+   background-color: #2c2d2d;
+ }
+
+ .navbar-brand {
+   font-family: var(--custom-font);
+ }
+
+ .dropdown-menu-right {
+   right: 0 !important;
+   left: auto !important;
+ }
+
+ .btn-cart {
+   background-color: transparent;
+   position: relative;
+   color: white;
+ }
+ .btn-cart .badge {
+   position: absolute;
+   top: -5px;
+   right: 9px;
+ }
+
+ .list-card img {
+   width: 60px;
+   height: 60px;
+ }
+
+ .list-card {
+   width: 80px;
+ }
+
+ /*-----------End navbar Section-----*/
+ /*-----------Home Section----------*/
+ .slider-item {
+   position: relative;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   margin: 0px;
+ }
+
+ .slider-item .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
+ }
+
+ .slider-item .content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: #fff;
+ }
+
+ .slider-item .content h2 {
+   font-size: 60px;
+ }
+
+ .owl-carousel .owl-nav button.owl-prev,
+ .owl-carousel .owl-nav button.owl-next {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   background-color: var(--secondary-color);
+   color: #fff;
+   border: none;
+   padding: 10px !important;
+   font-size: 30px;
+   transition: color 0.3s ease;
+   z-index: 1;
+ }
+
+ .owl-carousel .owl-nav button.owl-prev:hover,
+ .owl-carousel .owl-nav button.owl-next:hover {
+   color: var(--secondary-color);
+   background-color: #fff;
+ }
+
+ .owl-carousel .owl-nav button.owl-prev {
+   left: 10px;
+ }
+
+ .owl-carousel .owl-nav button.owl-next {
+   right: 10px;
+ }
+
+
+ /*-----------End Home Section------*/
+ /* ----------Start offer service---------- */
+ .why-service-card {
+   box-shadow: 0px 13px 14px 4px rgba(0, 0, 0, 0.33);
+   -webkit-box-shadow: 0px 13px 14px 4px rgba(0, 0, 0, 0.33);
+   -moz-box-shadow: 0px 13px 14px 4px rgba(0, 0, 0, 0.33);
+ }
+
+ .why-serviceicon {
+   border-radius: 50%;
+   padding: 10px;
+   color: white;
+ }
+
+ /* ----------End offer service---------- */
+ /* ---------Start new arrivals---------- */
+ .bg-new-arrivals {
+   height: 60vh;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), transparent), url('imgs/new-arrivals/pexels-pixabay-248077.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+
+ /* ---------End new arrivals---------- */
+ /* ---------Start Jewellery Section--- */
+ #searchInput{
+  border: 0px;
+  margin-block: 30px;
+  border-bottom: 1px solid black;
+ }
+ #searchInput:focus-visible {
+  outline: none;
+ }
+ .card-img-top {
+   height: 300px;
+ }
+
+ /* ---------End Jewellery Section-------*/
+ /* ---------Counter section start----- */
+ .bg-counter {
+   background-color: var(--gray-color);
+   box-shadow: 0px 13px 42px 4px rgba(0, 0, 0, 0.33);
+   -webkit-box-shadow: 0px 13px 42px 4px rgba(0, 0, 0, 0.33);
+   -moz-box-shadow: 0px 13px 42px 4px rgba(0, 0, 0, 0.33);
+ }
+
+ /*----- COunter section end ------------*/
+ /*----- Footer section Start --------- */
+ .footer-menu {
+   list-style: none;
+ }
+
+ .footer-list {
+   padding-block: 10px;
+ }
+
+ .footer-bottom {
+   padding-block: 30px;
+ }
+
+ /* ---- End Footer Section -----------*/
+ /* ---- Contact us Section ----------*/
+ /* .bg-contact-img {
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('imgs/home/pexels-s-von-hoerst-2684218.jpg');
+
+   background-size: cover;
+   background-position: center;
+
+ } */
+
+ .box {
+   margin-block: 50px;
+   padding: 40px;
+   background: rgb(120, 159, 120);
+   box-sizing: border-box;
+   box-shadow: 0 15px 25px rgb(120, 159, 120);
+   border-radius: 10px;
+ }
+
+ .box h2 {
+   margin: 0 0 30px;
+   padding: 0;
+   color: #f9f9f9;
+   text-align: center;
+ }
+
+ .box .inputBox {
+   position: relative;
+ }
+
+ .box .inputBox input,
+ textarea {
+   width: 100%;
+   padding: 10px 0;
+   font-size: 16px;
+   color: #ffffff;
+   letter-spacing: 1px;
+   margin-bottom: 30px;
+   border: none;
+   border-bottom: 1px solid #FFF;
+   outline: none;
+   background: transparent;
+ }
+
+ .box .inputBox label {
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 10px 0;
+   font-size: 16px;
+   color: #FFF;
+   pointer-events: none;
+   transition: .5s;
+   animation: LabelOnLoad 1s forwards 0s ease;
+ }
+
+ @keyframes LabelOnLoad {
+   0% {
+     transform: rotate(0) translateY(-19px);
+     opacity: 0;
+   }
+
+   100% {
+     transform: rotate(0) translateY(0);
+     opacity: 1;
+   }
+ }
+
+ .box .inputBox input:focus~label,
+ .box .inputBox input:valid~label,
+ .box .inputBox textarea:focus~label,
+ .box .inputBox textarea:valid~label {
+   top: -19px;
+   left: 0;
+   color: #ffffff;
+   font-size: 14px;
+ }
+
+ .box input[type='submit'] {
+   background: transparent;
+   border: none;
+   outline: none;
+   color: #FFF;
+   background: var(--gray-color);
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 5px;
+   font-size: 14px;
+ }
+
+ .box input[type='submit']:hover {
+   background-color: rgba(3, 169, 244, 0.7);
+ }
+
+ .contact-map {
+   margin-block: 50px;
+ }
+
+ /* ---- Contact us Section ----------*/
+
+ /* ----Service Section Start-------------*/
+ .bg-service {
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('imgs/about/pexels-photo-848205.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 70vh;
+ }
+.bg-serviceproducts{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('imgs/new-arrivals/pexels-pixabay-248077.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 70vh;
+}
+ .new-car-section {
+   padding-block: 40px;
+ }
+
+ /* ----Service Section End-------------*/
+ /*-----we deal section  start----------*/
+
+
+ /*-----we deal section  End----------*/
